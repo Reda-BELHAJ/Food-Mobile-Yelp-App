@@ -3,8 +3,11 @@ import { StyleSheet, Text, ScrollView } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import useResults from '../hooks.js/useResults';
 import ResultsList from '../components/ResultsList';
+import { registerForPushNotificationsAsync } from '../hooks.js/notif';
 
 const SearchScreen = () => {
+    registerForPushNotificationsAsync()
+
     const [term, setTerm] = useState('')
     const [searchAPI, results, errorMessage] = useResults()
 
