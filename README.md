@@ -7,6 +7,6 @@ I improve the application a little bit.
 ## To get Started
 
 - git clone https://github.com/Reda-BELHAJ/Food-Mobile-Yelp-App.git
-- cd NavigatorDemo
+- cd Food-Mobile-Yelp-App
 - npm install
 - react-native start or npm start
